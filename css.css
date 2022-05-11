@@ -1,0 +1,536 @@
+/*--------Trang chủ--------------*/
+body {
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Rubik', sans-serif;
+    padding: 0px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.trangchu{
+    width: 1000px;
+    margin: 0px;
+}
+nav{
+    text-align: center;
+    background-color: rgb(67, 134, 211);
+    font-variant: small-caps;
+    
+}
+header{
+    background-image: url(img/dji_0003-0841.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+header>a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+.trangchu>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+    clear: both;
+}
+.trangchu>aside{
+    min-height: 422px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+footer{
+    text-align: center;
+    
+    background-color: rgb(75, 186, 223);
+    background-size: 1000px 80px;
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+   
+   
+}
+#ft1{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 25px;
+}
+#ft2{
+    font-size: 15px;
+}
+.thanh-chay{
+    font-variant: small-caps;
+    animation: doimau 1s ease infinite;
+    -webkit-animation: doimau 1s ease infinite;
+    background-color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+nav>div>ul>li>a{
+      text-decoration: none;
+      font-size: 24px;
+      color: white;
+      font-weight: 700;
+      text-align: center;
+}
+nav>div>ul>li{
+    display: inline-block;
+    list-style:none;
+    padding: 0 50px;
+    padding-top: 10px;
+    height: 100%;
+
+}
+nav>div>ul{
+    
+    margin: 0%;
+}
+.center{
+    text-align: center;
+}
+nav>div{
+    padding-right:0 100px;
+}
+nav>div>ul>li>a:hover{
+    
+    text-decoration: underline;
+
+}
+nav>div>ul>li:hover{
+    background-color: rgb(169, 189, 226) ;
+}
+iframe[name="lichsu"]{
+    width: 50%;
+    min-height: 422px;
+    float: right;
+}
+iframe[name="tentruong"]{
+    width: 50%;
+    min-height: 422px;
+    float: left;
+}
+.trangchu>aside>div>ul>li>img{
+    width:  240px ;
+    height: 80px;
+    float: left;
+    transition: all 1s;
+    margin-left: 5px;
+}
+.trangchu>aside>div>ul>li{
+    list-style: none;
+}
+.trangchu>aside>div>ul{
+    padding: 0px;
+}
+.trangchu>aside>div>ul>li>a{
+    float: right;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.thongbao>img{
+    margin: 8px;
+    
+}
+.thongbao>a{
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+    animation: doimau 1s ease infinite;
+    -webkit-animation: doimau 1s ease infinite;
+}
+.trangchu>aside>div>ul>li>a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.trangchu>aside>div>ul>li>img:hover{
+    -webkit-transform: scale(1.2); transform: scale(1.2); 
+}
+.thanh-chay2>li{
+    direction: up;
+}
+header>ul{
+    float: right;
+    background-color: rgb(179, 179, 218);
+border-bottom-left-radius: 40px;
+box-shadow: 0 0 15px gray;
+padding: 20px 20px 20px 50px;
+margin: 0px;
+display: flex;
+}
+header>ul>li{
+    list-style: none;
+    margin: 8px;
+    
+}
+header>ul>li>a:hover{
+color: white;
+text-decoration: underline;
+}
+header>ul>li>a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+/*-------Lịch sử------------*/
+
+.lichsu{
+    background-image: url(img/background-dep-cho-powerpoint_110637418.jpeg);
+}
+.tentruong{
+    background-image: url(img/Best-Website-Background-Images14.jpg);
+}
+
+.lichsu1{
+    animation: doimau 1s ease infinite;
+    -webkit-animation: doimau 1s ease infinite;
+}
+@keyframes doimau {
+    0% {
+        color: rgb(5, 205, 255);
+    }
+    50% {
+        color: rgb(255, 0, 191);
+    }
+    100% {
+        color: #feca21;
+    }
+}
+.lichsu1{
+    margin: 0%;
+    margin-bottom: 21.6px;
+}
+/*--------------Giới thiệu-----------------*/
+.gioithieu{
+    width: 1000px;
+    margin: 0px;
+}
+.gioithieu>nav{
+    text-align: center;
+    background-color: rgb(67, 134, 211);
+    font-variant: small-caps;
+    
+}
+.gioithieu>header{
+    background-image: url(img/dji_0003-0841.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.gioithieu>header>a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+.gioithieu>aside{
+    width: 75%;
+    background-image: url(img/background-dep-3.jpg);
+    min-height: 930px;
+    float: left;
+    clear: both;
+}
+.gioithieu>article{
+    width: 25%;
+    background-image: url(img/background-đẹp-2-1024x585.jpg);
+    float: right;
+    min-height: 946px;
+    
+}
+.bgh{
+    list-style: none;
+    display: flex;
+}
+.bgh>li{
+    margin:0px 20px;
+    list-style: none;
+  
+}
+.headbgh{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.bgh>li>a{
+    text-align: center;
+    color: darkblue;
+    text-decoration: none;
+}
+.bgh>li>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.boder{
+    border-color: rgb(70, 70, 170);
+    border-radius: 10px;
+    box-shadow: 0 0 2px gray;
+    margin: 3px 0;
+}
+.bgh>li>img{
+    transition: all 1s;
+}
+.bgh>li>img:hover{
+    -webkit-transform: scale(1.2); transform: scale(1.2); 
+}
+.gioithieu>article>ul>marquee>li{
+list-style: none;
+margin-bottom: 25px;
+
+}
+
+.chidao{
+    animation: doimau 1s ease infinite;
+    -webkit-animation: doimau 5s ease infinite;
+    text-shadow: 2px #feca21;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+.ngay{
+    font-size: small;
+    text-decoration: underline;
+}
+.chidao:hover{
+    text-decoration: underline;
+}
+#ttcd{
+    text-align: center;
+    font-weight: 700;
+}
+/*--------------Liên hệ---------------------*/
+.lienhe{
+    width: 1000px;
+    margin: 0px;
+}
+.lienhe>aside{
+    width: 55%;
+    float: left;
+    clear: both;
+    height: 360px;
+    background-color: lavender;
+}
+.lienhe>article{
+    background-color: lavender;
+    width: 45%;
+    float: right;
+    height: 360px;
+}
+
+.button{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;
+    padding: 5px 10px;
+    outline: none;
+    margin-left: 370px;
+    width: 60px;
+}
+.lienhe>article>div>ul>li{
+    list-style: none;
+}
+.lienhe>article>div>ul>li>div>label{
+    color: black;
+    font-weight: bold;
+}
+.control{
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    display: block;
+    outline: none;
+    width: 380px;
+}
+.control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid orangered;
+}
+#ghichu{    width: 500px;
+    height: 285px;
+
+
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    display: block;
+    outline: none;
+    margin-left: 6px;
+}
+#ghichu:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid orangered;
+}
+#lien-he{
+    text-align: center;
+    color: darkolivegreen;
+}
+#lhghichu{
+    margin-left: 6px;
+    font-weight: bold;
+    font-style: italic;  
+}
+
+/*-------------góp ý-------------------*/
+.gopy{
+    width: 1000px;
+    margin: 0px;
+}
+.gopy>aside{
+    width: 75%;
+    float: left;
+    background-color: beige;
+}
+.gopy>article{
+    width: 25%;
+    float: right;
+    background-image: url(img/Best-Website-Background-Images14.jpg);
+}
+.gopy>aside>div>ul>li{
+    list-style: none;
+}
+.gopy>aside>div>ul{
+    margin: 0 5px;
+    padding: 0 0 0 5px;
+}
+.gopy>aside>div>button{
+    padding: 10px 10 10px 10px;
+    margin-left: 0px;
+}
+#gopybutton{
+    margin: 15px 10px;
+}
+#gopy-email-sdt{
+ 
+    font-weight: 600;
+    font-style: italic;
+    line-height: 25px;
+}
+#gopy-email-sdt>ul{
+    display: flex;
+}
+#gopy-email-sdt>ul>li>img{
+    margin: 20px 20px;
+}
+
+/*----------Hỏi đáp--------------*/
+.hoidap{
+    width: 1000px;
+    margin: 0;
+}
+
+.hoidap>aside{
+    width: 75%;
+    float: left;
+}
+.hoidap>article{
+    width: 25%;
+    float: right;
+    background-color: lightblue;
+    height: 482px;
+}
+.tracuu>ul>li{
+    list-style: flex;
+}
+.hoatdong>ul>li{
+    list-style: flex;
+    line-height: 25px;
+    line-height: 35px;
+}
+.hoidap>aside>ul>li{
+    list-style: flex;
+    line-height: 35px;
+   
+}
+.tracuu{
+    margin-top: 30px;
+}
+.hoatdong{
+    margin-bottom: 30px;
+}
+.hoidap>aside>ul{
+    float: left;
+    width: 35%;
+    background-image: url(img/mau-background-don-gian-dep-1.jpg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hoatdong>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.tracuu>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.tieude{
+    font-weight: bold;
+    text-shadow: 2px;
+}
+.tracuu>ul>li>a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+.hoatdong>ul>li>a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+.menu>ul>li{
+list-style: none;
+}
+
+.menu{
+    float: right;
+    width: 59.6%;
+    background-color: antiquewhite;
+    margin-top: 0;
+    height: 482px;
+}
+.menu>ul{
+    padding: 0;
+    padding-left: 5px;
+}
+#cauhoi{
+    width: 390px;
+    height: 140px;
+}
+.menu>ul>div>button{
+    margin: 3px 3px;
+}
+.hoidap>article>div>ul>li>img{
+    width:  240px ;
+    height: 80px;
+    float: left;
+    transition: all 1s;
+    margin-left: 5px;
+}
+
+.hoidap-menu>ul>li{
+    list-style: none;
+
+}
+.hoidap-menu>ul{
+    padding-left: 5px;
+}
+.hoidap-menu>ul>li>a{
+    text-decoration: none;
+}
+.hoidap-menu>ul>li>img:hover{
+    -webkit-transform: scale(1.2); transform: scale(1.2); 
+}
+.hoidap-menu>ul>li>a:hover{
+    text-decoration: underline;
+    color: red;
+    font-style: italic;
+}
